@@ -40,5 +40,6 @@ void Warlock::launchSpell(std::string const &name, ATarget &atarget) {
     if (spell) {
         std::cout << name << ": " << spell->getName() << " is cast!" << std::endl;
         spell->launch(atarget);
+        delete spell;
     }
 }

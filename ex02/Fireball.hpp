@@ -1,3 +1,4 @@
+#pragma once
 #include "ASpell.hpp"
 
 class Fireball : public ASpell {
