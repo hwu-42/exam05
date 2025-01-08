@@ -5,7 +5,7 @@ Warlock::Warlock(std::string const &name, std::string const &title) : name(name)
 }
 
 Warlock::~Warlock() {
-    this->spellbook.~SpellBook();
+    //this->spellbook.~SpellBook();
     std::cout << name << ": My job here is done!" << std::endl;
 }
 
